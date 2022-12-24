@@ -37,7 +37,7 @@
     3) Display members 
     4) Two linked lists exists for two divisions. Concatenate two lists. 
     
- 8.	Write C++ program for storing binary number using doubly linked lists. Write functions- 
+8.	Write C++ program for storing binary number using doubly linked lists. Write functions- 
     1) To compute 1‘s and 2‘s complement 
     2) Add two binary numbers 
     
