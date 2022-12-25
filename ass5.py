@@ -28,8 +28,9 @@ def SelectionSort(arr):
 
         (arr[i], arr[minIndex]) = (arr[minIndex], arr[i])  # swap
     return arr
-# Bubble sort : sort adjecent element
 
+
+# Bubble sort : sort adjecent element
 
 def BubbleSort(arr):
     for i in range(len(arr)):
