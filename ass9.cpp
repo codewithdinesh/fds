@@ -149,14 +149,18 @@ void Operation::reverseString()
     // now return/pop the string and store them to reverseStr
 
     i = 0;
-    while (!obj.isEmpty())
-    {
-        revStr[i] = obj.pop();
-        i++;
-    }
+    char ch = '\0';
 
     // display reverse string
-    cout << "\nString after Reverse: " << revStr;
+    cout << "\nString after Reverse: ";
+
+    while (!obj.isEmpty())
+    {
+        ch = obj.pop();
+        cout << ch;
+        revStr[i] = ch;
+        i++;
+    }
 }
 
 // check palindrome
