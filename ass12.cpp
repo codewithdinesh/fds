@@ -104,7 +104,7 @@ public:
         }
     }
 
-        void print()
+    void print()
     {
         cout << "Queue : " << endl;
 
@@ -114,6 +114,7 @@ public:
         }
         else
         {
+            // cout << "\nHead = " << front << " \t Rear=" << rear << endl;
             for (int i = front; i <= rear; i++)
             {
                 cout << items[i] << endl;
